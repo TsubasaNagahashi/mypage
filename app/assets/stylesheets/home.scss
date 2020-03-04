@@ -1,21 +1,14 @@
-.home-main {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  &__left {
-    margin-left: 150px;
+ul {
+  list-style: none;
+  .name {
+    font-size: 18px;
+    font-weight: 600;
   }
-  &__right {
-    margin-right: 200px;
-    ul {
-      list-style: none;
-      .name {
-        font-size: 18px;
-        font-weight: 600;
-      }
-      .text {
-        padding-top: 10px;
-      }
-    }
+  .text {
+    padding-top: 10px;
   }
+}
+
+.image {
+  text-align: right;
 }
