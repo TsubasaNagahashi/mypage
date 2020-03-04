@@ -1,2 +1,45 @@
 <% provide(:title, "Portfolio") %>
-<h1>ポートフォリオ 一覧</h1>
+<h1>ポートフォリオ</h1>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="portfolio-box">
+      <p>Fmarket</p>
+      <%= image_tag 'fmarket.png', size: '200x150' %>
+      <p>
+        <%= link_to("http://3.112.0.27/", "http://3.112.0.27/") %>
+      </p>
+      <p class="portfolio-box__none">
+        【概要】<br>
+        フリーマーケットのアプリケーション<br>
+        （テスト用アカウント）<br>
+        メールアドレス：buy_user@example.com<br>
+        パスワード：123456b<br>
+        <br>
+        【開発環境】<br>
+        技術：Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code<br>
+        開発期間：約12週間　1日あたりの平均作業時間：約3時間<br>
+        開発体制：5人　アジャイル開発（スクラム）　Trelloによるタスク管理<br>
+        <br>
+        【動作確認方法】<br>
+        Chromeの最新版を利用してアクセスしてください。
+        ただしデプロイ等で接続できないタイミングもございます。その際は少し時間をおいてから接続ください。
+        接続先およびログイン情報については、上記の通りです。
+        同時に複数の方がログインしている場合に、ログインできない可能性がございます。
+        確認後、ログアウト処理をお願いします。
+
+
+      </p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="portfolio-box">
+      <p>Coming Soon</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="portfolio-box">
+      <p>Coming Soon</p>
+    </div>
+  </div>
+</div>
